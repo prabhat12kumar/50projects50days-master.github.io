@@ -2,7 +2,7 @@ const boxesContainer = document.getElementById('boxes')
 const btn = document.getElementById('btn')
 
 btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))
-// this is a javaScript file
+// this is a second comment
 
 function createBoxes() {
   for (let i = 0; i < 4; i++) {
